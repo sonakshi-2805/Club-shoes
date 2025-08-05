@@ -1,0 +1,101 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: darkgray;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 30px 30px;
+}
+
+nav .logo {
+  color:blanchedalmond;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color:blanchedalmond;
+  font-size: 20px;
+}
+
+/* Banner */
+.banner {
+  position: relative;
+  text-align: left;
+  color: whitesmoke;
+}
+
+.banner img {
+  width: fit-content;
+  height: 380px;
+  object-fit: cover;
+}
+
+.banner-text {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-text h1 {
+  font-size: 120px;
+  margin-bottom: 120px;
+}
+
+.banner-text p {
+  font-size: 120px;
+}
+/* About Us Section */
+.about {
+  background-color: #fff;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about p {
+  font-size: 18px;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* Footer Section */
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  color: #333;
+  border-top: 1px solid #ccc;
+}
+
+.footer p {
+  margin: 8px 0;
+  font-size: 16px;
+}
